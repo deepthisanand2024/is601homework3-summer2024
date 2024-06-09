@@ -1,5 +1,3 @@
 ## Instructions
-1. Created functions multiply and divide along with existing add and subtract functions
-2. Basic calculator program to perform the 4 above operations
-
+1. Part 2 - Intermediate Calculator with static methods on Calculator class and instance methods on Calculation class to perform operations on the data in the calculation instance.
 
