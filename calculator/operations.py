@@ -1,14 +1,18 @@
-def add(x, y):
+from decimal import Decimal
+
+# Included type hints for input parameter types and return types
+def add(x:Decimal, y:Decimal) -> Decimal:
     return x + y
 
-def subtract(x, y):
+def subtract(x:Decimal, y:Decimal) -> Decimal:
     return x - y
 
-def multiply(x, y):
+def multiply(x:Decimal, y:Decimal) -> Decimal:
     return x * y
         
-def divide(x, y):
+def divide(x:Decimal, y:Decimal) -> Decimal:
     if y != 0:
         return x / y
     else:
-        return "Error: Division by zero"
+        raise ValueError("Error: Division by zero")
+        
